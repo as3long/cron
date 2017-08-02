@@ -1,0 +1,29 @@
+{
+  "name": "cron-x",
+  "version": "1.0.0",
+  "description": "处理大批量定时任务的模块",
+  "main": "lib/CornX.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as3long/cron-x.git"
+  },
+  "keywords": [
+    "corn",
+    "定时任务"
+  ],
+  "author": "as3long@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/as3long/cron-x/issues"
+  },
+  "homepage": "https://github.com/as3long/cron-x#readme",
+  "dependencies": {
+    "cron-parser": "^2.4.1",
+    "events": "^1.1.1",
+    "sorted-array-functions": "^1.0.0",
+    "util": "^0.10.3"
+  }
+}
